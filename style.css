@@ -115,3 +115,57 @@ img {
 #movie-search::placeholder {
     color: #77736D;
 }
+
+/* movie sections */
+
+.movie-section {
+    padding: 65px 7%;
+}
+
+.movie-section h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+
+#now-playing {
+    background-color: #EDE9E0;
+    color: #171717;
+}
+
+#coming-soon {
+    background-color: #171717;
+    color: #EDE9E0;
+}
+
+/* grid for movies */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 22px;
+}
+
+.movie-card {
+    min-width: 0;
+    transition: transform 0.3s ease;
+}
+
+#coming-soon .movie-card p {
+    color: #BDB8AF;
+}
+
+.movie-card .rating {
+    color: #852E36;
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: #171717;
+    color: #BDB8AF;
+    text-align: center;
+    padding: 30px 15px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
