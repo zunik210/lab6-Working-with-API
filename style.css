@@ -89,6 +89,51 @@ img {
     letter-spacing: 0.5px;
 }
 
+/* hero label */
+.hero-label {
+    color: #B77A7F;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* buttons */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #852E36;
+    color: #EDE9E0;
+    border: 1px solid #852E36;
+}
+
+.primary-btn:hover {
+    background-color: #A13D47;
+}
+
+.secondary-btn {
+    border: 1px solid #EDE9E0;
+    color: #EDE9E0;
+}
+
+.secondary-btn:hover {
+    background-color: #EDE9E0;
+    color: #171717;
+}
+
 /* search section */
 
 .search-section {
