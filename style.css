@@ -44,3 +44,74 @@ img {
     color: #852E36;
 }
 
+.nav-links {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links a {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #852E36;
+}
+
+/* landing page/hero section */
+
+.hero {
+    min-height: 480px;
+    background-color: #171717;
+    color: #EDE9E0;
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero-content h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(42px, 7vw, 76px);
+    font-weight: normal;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    color: #BDB8AF;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* search section */
+
+.search-section {
+    padding: 45px 7%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#movie-search {
+    width: 300px;
+    padding: 13px 5px;
+    border: none;
+    border-bottom: 1px solid #77736D;
+    background: transparent;
+    color: #171717;
+    font-size: 14px;
+    outline: none;
+}
+
+#movie-search:focus {
+    border-bottom: 1px solid #852E36;
+}
+
+#movie-search::placeholder {
+    color: #77736D;
+}
